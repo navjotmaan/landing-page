@@ -6,49 +6,69 @@
     <title>Landing Page</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+
     <div class="first-section">
         <header>
-            <h1>Learn Web Dev</h1>
-            <a href="#">HTML & CSS</a>
-            <a href="#">JavaScript</a>
-            <a href="#">Node JS</a>
+            <h1 id="h1"><img src="./images/logo.png" width="60px" height="30px"></h1>
+            <div class="links">
+                <a href="#">HTML & CSS</a>
+                <a href="#">JavaScript</a>
+                <a href="#">Node JS</a>
+            </div>
         </header>
 
         <main>
-            <h1>Become and expert in Web Development</h1>
-            <p>This website is to help you learn the fundamentals of web development. You will learn HTML, CSS, JavaScript, and Node JS. This is your starting journey to become full-stack developer.</p>
-            <button class="sign-up">Sign up</button>
-            <img src="./images/web dev.jpg" height="500px" width="800px">
+            <div class="info">
+                <h1 class="heading">Learn Web Development</h1>
+                <p>This website is to help you learn the fundamentals of web development. You will learn HTML, CSS, JavaScript, and Node JS. This is your starting journey to become full-stack developer.</p>
+                <button class="sign-up">Sign up</button>
+            </div>
+
+            <img src="./images/web dev.jpg" height="250px" width="450px">
         </main>
     </div>
 
     <div class="second-section">
-        <h1>What you will learn</h1>
+        <h1>What will you learn</h1>
+
         <div class="img">
-            <img src="./images/html.png" height="100px" width="100px">
-            <p>HTML defines the stucture of the web page</p>
-            <img src="./images/css.png" height="100px" width="100px">
-            <p>CSS is used to add styles and to design the web page</p>
-            <img src="./images/javascript.png" height="100px" width="100px">
-            <p>JavaScript is used to add the interactivity to the web page</p>
-            <img src="./images/nodejs.png" height="100px" width="100px">
-            <p>Node JS is used for the backend development</p>
+            <div class="logo">
+                <img src="./images/html.png" height="100px" width="100px">
+                <p>HTML defines stucture of the web page</p>
+            </div>
+            <div class="logo">
+                <img src="./images/css.png" height="100px" width="100px">
+                <p>CSS add styles and designs to the web page</p>
+            </div>
+            <div class="logo">
+                <img src="./images/javascript.png" height="100px" width="100px">
+                <p>JavaScript add interactivity to the web page</p>
+            </div>
+            <div class="logo">
+                <img src="./images/nodejs.png" height="100px" width="100px">
+                <p>Node JS is for the backend development</p>
+            </div>
         </div>
+
     </div>
 
     <div class="quote">
-        <p>"If debugging is the process of removing software bugs, then programming must be the process of putting them in." - Anonymous </p>
+        <p><i>"If debugging is the process of removing software bugs, then programming must be the process of putting them in."</i><b>- Anonymous</b></p>
     </div>
 
     <div class="CTA">
-        <h2>It's time to upskill yourself!</h2>
-        <p>Sign up to become a Web Developer by clicking the button right over there!</p>
+        <div class="message">
+            <h2>It's time to upskill yourself!</h2>
+            <p>Sign up to become a Web Developer by clicking the button right over there!</p>
+        </div>
         <button>Sign up</button>
     </div>
 
     <footer>
         Copyrigth &copy; The Odin Project 2025
     </footer>
+    
 </body>
 </html>
